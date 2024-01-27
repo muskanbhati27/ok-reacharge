@@ -1,0 +1,133 @@
+.footer {
+  padding: 60px 0px 0px;
+}
+.footer_inner_sec {
+  padding-bottom: 40px;
+}
+.contact_social_lnks ul li a .txts:hover,
+.footer_bottom_sec a:hover,
+.footer_box ul li a .address_span:hover,
+.footer_social ul li a:hover,
+.footer_link ul li a:hover {
+  color: #03a557;
+}
+.footer_logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.footer_logo img {
+  height: 100%;
+  object-fit: contain;
+}
+.footer_box li {
+  margin-bottom: 10px;
+}
+.footer_box ul li,
+.footer_box ul li a,
+.footer_abt_title {
+  color: #000;
+  list-style: none;
+  font-size: 16px;
+  transition: ease-in-out 0.3s all;
+  line-height: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer_top_heading {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.download_app_sec a,
+.download_app_sec img {
+  height: 100%;
+  width: 100%;
+}
+.download_app_sec {
+  height: 60px;
+  width: 170px;
+}
+.get_ourapp_sec {
+  margin-top: 30px;
+}
+.get_ourapp_sec .headings {
+  font-size: 25px;
+  line-height: 35px;
+}
+.address_span {
+  margin-left: 5px;
+  transition: ease-in-out 0.4s all;
+}
+
+.footer_social_title {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.footer_social {
+  margin-top: 15px;
+}
+.footer_social ul li a {
+  color: #000;
+  margin-right: 15px;
+}
+.footer_link ul li a {
+  padding-left: 15px;
+  position: relative;
+  text-decoration: none;
+  transition: ease-in-out 0.4s all;
+}
+.footer_link ul li a:before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 8px;
+  height: 0px;
+  background: #c9c9c9;
+}
+.footer_pad {
+  padding-left: 40px;
+}
+.footer_bottom_sec {
+  padding: 15px 0px;
+  text-align: center;
+  background-color: #414242;
+}
+.footer_bottom_sec p,
+.footer_bottom_sec p a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+  .lefttcol {
+    margin-bottom: 30px;
+  }
+  .footer_pad {
+    padding-left: 0px;
+  }
+  .footer_link {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .get_ourapp_sec .headings {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .footer_top_heading {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .footer_box ul li {
+    flex-direction: column;
+  }
+}
